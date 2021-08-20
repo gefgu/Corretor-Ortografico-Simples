@@ -82,7 +82,7 @@ def corretor(palavra):
     if (palavra_correta in vocabulario):
     	return palavra_correta
     else:
-    	return f"Desculpe! Corrigir a palavra '{palavra}' está além das minhas capacidades."
+    	return False
 
 with open("corretor-master/artigos.txt", "r", encoding="utf-8") as f:
     artigos = f.read()
