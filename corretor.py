@@ -1,4 +1,5 @@
 import nltk
+nltk.download("punkt")
 
 def separa_palavras(lista_tokens):
     
